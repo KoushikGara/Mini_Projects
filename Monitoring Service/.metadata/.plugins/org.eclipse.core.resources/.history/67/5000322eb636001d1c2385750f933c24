@@ -1,0 +1,9 @@
+package com.monitoring.app.services.Impl;
+
+@Service
+public class MonitoringServiceImpl 
+{
+	@Autowired
+	private RestTemplate restTemplate;
+	
+}

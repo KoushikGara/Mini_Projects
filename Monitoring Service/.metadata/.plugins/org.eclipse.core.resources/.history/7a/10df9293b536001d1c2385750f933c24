@@ -1,0 +1,5 @@
+package com.monitoring.app.services.Impl;
+
+public class MonitoringServiceImpl {
+
+}

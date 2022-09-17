@@ -1,0 +1,6 @@
+package com.monitoring.app.controller;
+
+import org.springframework.beans.factory.*;
+public class MonitoringController {
+
+}

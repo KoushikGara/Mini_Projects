@@ -1,0 +1,10 @@
+package com.monitoring.app.services.Impl;
+
+@Service
+public class MonitoringServiceImpl 
+{
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public static final String SERVICE_UP = "Status : Up"
+}

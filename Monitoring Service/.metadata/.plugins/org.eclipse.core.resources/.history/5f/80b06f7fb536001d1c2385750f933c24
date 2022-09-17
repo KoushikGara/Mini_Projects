@@ -1,0 +1,6 @@
+package com.monitoring.app.services;
+
+public class MonitoringService 
+{
+	String CheckStatus(String Url)
+}

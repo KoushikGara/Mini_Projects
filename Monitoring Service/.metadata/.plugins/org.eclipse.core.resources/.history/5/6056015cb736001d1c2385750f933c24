@@ -1,0 +1,29 @@
+package com.monitoring.app.services.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.springframework.web.client.RestTemplate;
+
+import com.monitoring.app.services.MonitoringService;
+
+@Service
+public class MonitoringServiceImpl implements MonitoringService
+{
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public static final String SERVICE_UP = "Status : UP";
+	public static final String SERVICE_DOWN = "Status : DOWN";
+	public static final String SERVICE_INCORRECT = "INVALID URL";
+	
+	
+
+	@Override
+	public String checkStatus(String url) 
+	{
+		String returnMessage = "";
+		
+		return null;
+	}
+}
