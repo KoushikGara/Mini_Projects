@@ -1,0 +1,11 @@
+line-height with exact size of the element makes the content to move down to the center
+
+hover, focus are pseudo classes that work on registered classes
+background-color: rgba()   
+rgba : red,green,blue,alpha   
+rgb(0,0,0[black] - 255,255,255[white])
+alpha stands for opacity(0-1)
+
+transistion is a property of registered class used to add time for psuedo classes to act upon it.
+
+flex-wrap is a property that helps to wrap the content within the screen resolution without having the need of scroll bar
