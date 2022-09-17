@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+
+*{
+    padding:0px;
+    margin :0px;
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.header{
+    height:180px;
+    width :100%;    
+    background: -webkit-linear-gradient(top, rgba(109,179,242,1) 0%,rgba(84,163,238,1) 50%,rgba(54,144,240,1) 51%,rgba(30,105,222,1) 100%);     /* Chrome10-25,Safari5.1-6 */    
+    border-top: 8px solid saddlebrown;
+    border-bottom:8px solid saddlebrown; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.header-text{
+    padding-left: 40px;
+    font-size:40px;
+    font-weight:bold;
+    /* -webkit-animation: fadein 2s; */
+    
+  
+}
+
+.header-ani{
+      
+    animation: 2s ease-out 1s  slideInFromLeft, fadeInAnimation ease 4s;
+    
+    
+}
+
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+
+.header-icons{
+    padding-top:15px;
+    font-weight: bolder;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+    color:#ffc107;
+    text-decoration: none;
+  }
+  
+a:visited {
+    color:#ffc107;
+    text-decoration: none;
+}
+
+
+
+
+.footer-1{
+    height:150px;
+    width:100%;
+    background-color: gray;
+    border-top: 6px solid brown;
+    color: #ffc107;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.footer-1-text{
+    height:150px;
+    width:40%;
+    /* background-color: red; */
+    text-indent:30px;   
+    line-height: 120px; 
+    font-size:22px;
+}
+
+.footer-1-text::selection{
+    color:red;
+}
+
+
+.footer-1-icons{
+    height:150px;
+    width:60%;
+    /* background-color: green; */
+    text-indent:30px;   
+    line-height: 120px;
+    font-size:22px;
+    cursor: pointer;
+    transition: .4s;
+
+}
+
+.footer-1-icons:hover{
+    font-size:30px;
+    padding:30px;
+    
+}
