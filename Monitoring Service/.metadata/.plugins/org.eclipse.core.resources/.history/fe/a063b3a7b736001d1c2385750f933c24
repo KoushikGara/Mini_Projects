@@ -1,0 +1,5 @@
+package com.monitoring.app.Utils;
+
+public class MonitoringConstants {
+
+}

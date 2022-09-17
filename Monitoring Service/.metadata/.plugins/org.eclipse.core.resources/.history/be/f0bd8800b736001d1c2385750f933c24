@@ -1,0 +1,15 @@
+package com.monitoring.app.services.Impl;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+import org.spring.framework.web.client
+
+@Service
+public class MonitoringServiceImpl 
+{
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	public static final String SERVICE_UP = "Status : UP";
+}
